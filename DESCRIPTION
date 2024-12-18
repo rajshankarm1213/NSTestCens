@@ -1,0 +1,21 @@
+Package: NSTestCens
+Type: Package
+Title: Neyman Smooth Goodness-of-Fit Test for Complete and Right-Censored Data
+Version: 0.5-1
+Date: 2024-12-18
+Authors@R: c(person("M", "Rajshankar", role = c("aut", "cre"),
+                    email = "rajshankarm1729@gmail.com"))
+Description: 
+License: MIT
+URL: https://github.com/rajshankarm1213/NSTestCens
+Encoding: UTF-8
+Depends: R (>= 3.5.0), survival, pracma
+Imports: fitdistrplus, grid, ggplot2, gridExtra, boot, methods
+NeedsCompilation: no
+VignetteBuilder: knitr
+Suggests: knitr, rmarkdown
+Packaged: 2024-07-29
+Author: M Rajshankar [aut, cre]
+Maintainer: M Rajshankar <rajshankarm1729@gmail.com>
+Repository: CRAN
+Date/Publication: 2024-12-18
